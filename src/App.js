@@ -3,6 +3,7 @@ import './App.css';
 import { Greet } from './components/Greet';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello'
+import Message from './components/Message'
 
 class App extends Component {
   render(){
@@ -14,6 +15,7 @@ class App extends Component {
       < Greet name = "Adel" heroName = "Darkonnen" />
       < Welcome name = "Adel" heroName = "Darkonnen"/>
       < Hello />
+      < Message />
     </div>
   );
   }
