@@ -66,3 +66,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+_ir    # import react
+_irc   # import react, component
+_cer   # import react, component to create a class
+_sst   # this.setState
+_state # this.state
+_clss  # class
+_exd   # export default
+_rsc   # functional component | stateless
+_rsf   # functional component | stateless without import & export
+_cns   # constructor for class
