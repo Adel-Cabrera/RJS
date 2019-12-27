@@ -24,7 +24,7 @@ function NameList() {
       skill: 'Vue',
     }
   ]
-  const peopleList = people.map(p => <People people={p}/>);
+  const peopleList = people.map(p => <People key={people.id} people={p}/>);
   return(
     <div>
     {
